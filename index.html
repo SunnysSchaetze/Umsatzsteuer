@@ -11,11 +11,11 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       justify-content: center;
-      align-items: center;
-      overflow: hidden;
+      align-items: flex-start;
+      overflow-y: auto;
     }
 
     .container {
@@ -48,8 +48,6 @@
       color: #ff7f00;
       width: 100%;
       max-width: 800px;
-      max-height: 40vh;
-      overflow-y: auto;
       box-sizing: border-box;
       font-size: clamp(0.9rem, 2vw, 1.1rem);
     }
@@ -60,15 +58,13 @@
   </style>
 </head>
 <body>
-
   <div class="container">
     <h2>⚖️ Umsatzsteuer ⚖️</h2>
     <div class="leitfaden-box">
       <p>
-        Wird aufgrund der Kleinunternehmerregelung (§19 UStG) bzw. Differenzbesteuerung (§25a UStG) nicht ausgewiesen. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Wird aufgrund der Kleinunternehmerregelung (§19 UStG) bzw. Differenzbesteuerung (§25a UStG) nicht ausgewiesen. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
       </p>
     </div>
   </div>
-
 </body>
 </html>
